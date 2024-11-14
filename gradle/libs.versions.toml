@@ -1,0 +1,38 @@
+[versions]
+agp = "8.7.2"
+kotlin = "1.9.24"
+coreKtx = "1.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+sendbirdAndroidSdk = "3.0.141"
+annotation = "1.6.0"
+constraintlayout = "2.1.4"
+lifecycleLivedataKtx = "2.6.1"
+lifecycleViewmodelKtx = "2.6.1"
+fuel = "3.0.0-alpha04"
+gson = "2.11.0"
+okhttp = "5.0.0-alpha.14"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+sendbird-android-sdk = { group = "com.sendbird.sdk", name = "sendbird-android-sdk", version.ref = "sendbirdAndroidSdk" }
+androidx-annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+fuel = { group = "com.github.kittinunf.fuel", name = "fuel", version.ref = "fuel" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
